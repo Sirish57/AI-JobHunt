@@ -1,0 +1,135 @@
+/* Global styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #333;
+}
+
+/* Form styling */
+.eligibility-form {
+    background-color: white;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+    .eligibility-form input {
+        width: 100%;
+        padding: 12px;
+        margin: 10px 0;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        font-size: 16px;
+    }
+
+        .eligibility-form input[type="file"] {
+            padding: 8px;
+        }
+
+    .eligibility-form button {
+        width: 100%;
+        padding: 12px;
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+        border-radius: 8px;
+        transition: background-color 0.3s ease;
+    }
+
+        .eligibility-form button:hover {
+            background-color: #45a049;
+        }
+
+.error {
+    color: #ff4d4d;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Modal Backdrop */
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+/* Modal content */
+.modal {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+    .modal h2 {
+        font-size: 22px;
+        color: #333;
+    }
+
+    .modal p {
+        color: #555;
+        font-size: 16px;
+    }
+
+    .modal button {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        font-size: 16px;
+        padding: 10px 20px;
+        margin: 15px 5px;
+        cursor: pointer;
+        border-radius: 8px;
+        transition: background-color 0.3s ease;
+    }
+
+        .modal button:hover {
+            background-color: #45a049;
+        }
+
+    .modal ul {
+        list-style-type: none;
+        padding: 0;
+        margin-top: 20px;
+        text-align: left;
+    }
+
+        .modal ul li {
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+
+    .modal .check-courses-btn {
+        background-color: #2196F3;
+    }
+
+        .modal .check-courses-btn:hover {
+            background-color: #1e88e5;
+        }
+
+    .modal .close-btn {
+        background-color: #f44336;
+    }
+
+        .modal .close-btn:hover {
+            background-color: #e53935;
+        }

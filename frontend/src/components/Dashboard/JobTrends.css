@@ -1,0 +1,43 @@
+/* JobTrends.css */
+
+/* Ensuring space between the title and chart */
+.chart-container {
+    margin-bottom: 40px; /* Adjust space between charts */
+}
+
+    /* Styling the titles to look better */
+    .chart-container h3 {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px; /* Space between title and chart */
+        text-align: center; /* Center the title */
+        color: #333;
+    }
+
+    /* Responsive container for the chart */
+    .chart-container .recharts-responsive-container {
+        margin: 0 auto;
+        padding: 0 20px;
+        max-width: 100%;
+    }
+
+/* Styling for the error state */
+.error-state h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+}
+
+/* Styling for loading state */
+.loading-state p {
+    font-size: 16px;
+    color: #333;
+}
+
+.no-data {
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+    margin-top: 20px;
+}
+

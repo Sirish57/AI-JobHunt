@@ -1,0 +1,91 @@
+/* Import Google Font (Poppins) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+/* Define CSS variables for colors (reusable) */
+:root {
+    --primary: #2563eb; /* Vibrant blue for buttons/headings */
+    --secondary: #1e40af; /* Darker blue for sidebar */
+    --background: #f8fafc; /* Light gray for page background */
+    --card-bg: #ffffff; /* White for cards */
+    --text: #1e293b; /* Dark gray for text */
+    --accent: #ec4899; /* Pink for highlights/icons */
+    --border: #e2e8f0; /* Light gray for borders */
+}
+
+/* Reset default margins/paddings and set base font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem; /* Slightly larger base font */
+    line-height: 1.6; /* Better readability */
+    color: var(--text);
+    background-color: var(--background);
+}
+
+body {
+    background: linear-gradient(135deg, #e0f9d3 0%, #c3cfe2 100%);
+    min-height: 100vh; /* Full viewport height */
+}
+
+/* Headings */
+h1 {
+    font-size: 2.5rem; /* Very large heading */
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--primary);
+}
+
+h2 {
+    font-size: 2rem;
+    color: var(--primary); /* Blue accent for h2 */
+    margin-bottom: 0.75rem;
+}
+
+/* Links/buttons */
+a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+button {
+    background: var(--primary);
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+    button:hover {
+        background: var(--secondary);
+    }
+
+/* Utility classes (reusable) */
+.card {
+    background: var(--card-bg);
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.flex {
+    display: flex;
+    gap: 1rem; /* Consistent spacing */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    body {
+        font-size: 1rem; /* Slightly smaller on mobile */
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}

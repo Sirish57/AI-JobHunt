@@ -1,0 +1,66 @@
+/* Auth.css - Updated with new components */
+/* ... (previous auth styles remain the same) ... */
+
+/* Success/Error Pages */
+.success-container, .error-container {
+    text-align: center;
+    max-width: 500px;
+}
+
+.success-icon {
+    color: #10b981;
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    animation: bounce 1s;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Chart Page */
+.chart-container {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    margin-top: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.chart-placeholder {
+    min-height: 400px;
+    display: grid;
+    place-items: center;
+    border: 2px dashed #e2e8f0;
+    border-radius: 8px;
+    padding: 2rem;
+    color: #64748b;
+}
+
+.mock-chart {
+    width: 100%;
+    height: 300px;
+    background: #f8fafc;
+    display: grid;
+    place-items: center;
+    margin-top: 1rem;
+}
+
+.back-button {
+    color: #64748b;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 500;
+}
+
+    .back-button:hover {
+        color: #2563eb;
+    }

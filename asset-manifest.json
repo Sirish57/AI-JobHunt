@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AI-JobHunt/static/css/main.678588d7.css",
+    "main.js": "/AI-JobHunt/static/js/main.fe886f18.js",
+    "index.html": "/AI-JobHunt/index.html",
+    "main.678588d7.css.map": "/AI-JobHunt/static/css/main.678588d7.css.map",
+    "main.fe886f18.js.map": "/AI-JobHunt/static/js/main.fe886f18.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.678588d7.css",
+    "static/js/main.fe886f18.js"
+  ]
+}

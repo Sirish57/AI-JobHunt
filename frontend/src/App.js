@@ -19,13 +19,13 @@ export default function App() {
                 <Navbar />
                 <Routes>
                     {/* Public Routes */}
+                    <Route path="/" element={<Navigate to="/login" replace />} /> {/* Redirect root to login */}
                     <Route path="/login" element={<Login />} />
                     <Route path="/register" element={<Register />} />
-
+                    
                     {/* Protected Routes */}
                     <Route element={<ProtectedRoute />}>
                         <Route path="/home" element={<Home />} /> {/* Main landing after login */}
-                        <Route path="/" element={<Navigate to="/home" replace />} /> {/* Redirect root to home */}
                         <Route path="/apply" element={<Application />} />
                         <Route path="/jobs" element={<JobListings />} />
                         <Route path="/trends" element={<JobTrends />} />

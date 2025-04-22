@@ -15,7 +15,7 @@ import StatsCharts from './components/Dashboard/StatsCharts';
 export default function App() {
     return (
         <AuthProvider>
-            <BrowserRouter>
+            <BrowserRouter basename="/AI-JobHunt">
                 <Navbar />
                 <Routes>
                     {/* Public Routes */}
